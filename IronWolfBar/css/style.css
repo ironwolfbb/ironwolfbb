@@ -1,0 +1,154 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.header_top{
+    background-color: rgb(20, 20, 20);
+   border-radius: 0px 0px 6px 6px;
+   display: flex;   
+   height: 60px;
+   line-height: 60px;
+}
+
+.menu_body{
+    gap: 60px;
+	padding-left: 60px; 
+}
+
+
+
+.menu_link{
+  color: rgb(248, 245, 245);
+  font-size: 16px;  
+}
+
+footer .menu_link{
+	color: rgb(14, 13, 13);
+	font-size: 16px;  
+  }
+footer :hover.menu_link{
+	text-decoration: underline;
+	color: brown;
+}  
+
+.menu_header{
+    display: flex;
+    gap: 60px;
+}
+
+
+.block_user{
+    position: absolute; right: 60px;
+}
+
+:hover.menu_link.red{
+    color: tomato;    
+} 
+
+.autorization_block{
+	margin-top: 30px;
+	margin-left: 60px;
+	border: 1px solid rgb(77, 74, 74);
+	box-shadow: 5px 5px 10px black ;
+	max-width: 350px;
+	min-height: 200px;
+	max-height: 200px;
+	padding-left: 30px;
+}
+
+p{
+	font-size: 20px;
+	padding: 5px 0px;
+}
+
+.bord_user{
+	border: 1px solid black;
+	width: 200px;
+	height: 30px;	
+}
+
+.button_autor{
+	background-color: blue;
+	border-radius: 3px;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	color: white;
+}
+
+.logo_wolf{
+	width: 100px;
+	height: 110px;
+	display: block;
+	/* margin-left: 300px; */
+	margin-right: auto;	 
+}
+
+
+h2{
+	color: red;
+}
+
+footer h2{
+	color: blue;
+}
+
+footer{
+	padding-top: 10%;
+}
+
+.gallery{
+	
+	width: 100px;
+	height: 110px;
+
+}
+.gall{
+	
+	display: inline;
+
+}
+.messages_form{
+	display: inline;
+}
+.header_messages{
+	display: inline;
+}
+.text{
+	color: blue;
+	
+}
